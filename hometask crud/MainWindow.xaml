@@ -1,0 +1,47 @@
+﻿<Window x:Class="hometask_crud.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hometask_crud"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="WhiteSmoke">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+            
+            
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="1" Grid.Column="0" >
+            <Label Name="Admin_panel" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Admin Panel" FontWeight="ExtraBold" Height="35">
+            </Label>
+            <TextBox Height="30" Background="Aquamarine"  Margin="100 0 0 0">
+                
+            </TextBox>
+            <TextBox Height="30" VerticalAlignment="Bottom" Background="Aquamarine" Margin="100 0 0 0">   
+                
+            </TextBox>
+            <Label Content="Email : " Background="Aquamarine" Height="30" Width="50" HorizontalAlignment="Left" FontWeight="ExtraBold"></Label>
+            <Label Content="Password : " Background="Aquamarine" Height="30" Width="73" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="ExtraBold"></Label>
+
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="0" >
+            <Button Height="30" Width="80" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 10 0 0" Background="Aquamarine" Content="Click" FontWeight="ExtraBold" Click="Button_Click"></Button>
+            
+        </Grid>
+        
+        
+    </Grid>
+</Window>
